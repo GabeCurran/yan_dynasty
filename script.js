@@ -50,5 +50,5 @@ function photoSuggestions() {
 let suggestionImages = photoSuggestions();
 
 function writeRandomImage() {
-    document.write("<img src='" + suggestionImages[rand] + ".jpg' alt='suggestionImages[rand]'>");
+    document.write("<img src='" + suggestionImages[rand] + ".jpg'>");
 }
