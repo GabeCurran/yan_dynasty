@@ -1,9 +1,3 @@
-// Get a random number
-function getRandomNumber() {
-    return Math.floor(Math.random() * 5);
-}
-
-
 /*
 This function will create a list of menu suggestions.
 It returns an array of this list.
@@ -25,12 +19,36 @@ function createSuggestions() {
 
 // Assign suggestions to variable
 let suggestions = createSuggestions();
-console.log(suggestions);
+
+// Get a random number
+function getRandomNumber() {
+    return Math.floor(Math.random() * suggestions.length);
+}
+
+rand = getRandomNumber();
 
 // This will write a random menu item to the page
 function writeRandomSuggestion() {
     document.write("We suggest: ");
-    document.write(suggestions[getRandomNumber()]);
+    document.write(suggestions[rand]);
 }
 
-writeRandomSuggestion();
+function photoSuggestions() {
+    // Declare variable to hold list
+    let suggestionImages = [];
+
+    // Add menu items to array
+    suggestionImages.push("images/chickensnowpeas");
+    suggestionImages.push("images/Crab_Rangoon");
+    suggestionImages.push("images/duck");
+    suggestionImages.push("images/eggrolls");
+    suggestionImages.push("images/ribs");
+    
+    return suggestionImages;
+}
+
+let suggestionImages = photoSuggestions();
+
+function writeRandomImage() {
+    document.write("<img src='" + suggestionImages[rand] + ".jpg' alt='suggestionImages[rand]'>");
+}

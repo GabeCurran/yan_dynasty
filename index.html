@@ -6,6 +6,7 @@
     <meta name="author" content="Gabe Curran & Ryan McCrary">
     <title>Yan Dynasty - Chinese Restaurant</title>
     <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="script.js" type="text/javascript"></script>
   </head>
   <body>
     <header>
@@ -16,8 +17,15 @@
           <li><a href="chef.html">Our Chef</a></li>
         </ul>
       </nav>
+      <img id='banner' src="images/yanbanner.png">
     </header>
     <!--each card will fill in the width gallery style-->
+    <div id="menuSuggestionDiv">
+      <p id="menuSuggestion">
+        <script>writeRandomSuggestion();</script>
+      </p>
+      <script>writeRandomImage();</script>
+    </div>
     <article class="card">
       <img src="images/cowpleated.png" alt="Cow print purse" />
       <h2>Cow Pleated Bag</h2>
@@ -31,16 +39,21 @@
       <p>Catch a wave with this mini tote bag printed with a cool wave design.</p>
       <p>$150</p>
     </article>
-	<article class="card">
-      <img src="images/purpleclutch.png" alt="Purple Clutch" />
-      <h2>Purple Clutch</h2>
-      <p>This small purple/black/cream clutch is a stylish addition to your wardrobe.</p>
-      <p>$100</p>
-    </article>
+    <article class="card">
+        <img src="images/purpleclutch.png" alt="Purple Clutch" />
+        <h2>Purple Clutch</h2>
+        <p>This small purple/black/cream clutch is a stylish addition to your wardrobe.</p>
+        <p>$100</p>
+      </article>
+      <article class="card">
+          <img src="images/purpleclutch.png" alt="Purple Clutch" />
+          <h2>Purple Clutch</h2>
+          <p>This small purple/black/cream clutch is a stylish addition to your wardrobe.</p>
+          <p>$100</p>
+        </article>
     <footer>
       <!--footer stays at the bottom of the page-->
       <p>&copy; Copyright 2022 JK - This is an academic project and NOT a real company. </p>
     </footer>
   </body>
-  <script src="script.js" type="text/javascript"></script>
 </html>

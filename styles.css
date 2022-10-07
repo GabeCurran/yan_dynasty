@@ -5,6 +5,7 @@ body {
 }
 header {
   border: thin solid black;
+  width: 100vw;
 }
 /*sets the navigation list and link styles*/
 nav ul {
@@ -65,4 +66,13 @@ nav ul li a.active {
 footer {
   clear: both;
   border: thick dashed silver;
+}
+
+#banner {
+  margin-top: 5px;
+}
+
+#menuSuggestionDiv > img {
+  width: 25vw;
+  height: auto;
 }
