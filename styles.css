@@ -16,6 +16,11 @@ header {
 }
 
 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #adadad;
+  background-image: url("./images/crossword.png");
   width: 100vw;
   display: flex;
   justify-content: center;
