@@ -20,17 +20,27 @@ Quart $3.50
 Chef Specials
 1000 Chili Pepper Spicy Fish Fillet - white fish stir fried with a variety of chili peppers delivers an 
 ongoing flavor and heat sensation. Served with white rice and steamed vegetable assortment - $22.00
+
 Shredded Pork Shoulder - Delicately flavored and richly glazed slow cooked pork served over white rice
 and assorted diced vegetables - $19.00
+
 General Tso's Chicken - crispy chicken chunks coated in a spicy sauce, served with 
 white rice and steamed broccoli with carrots - $12.00
+
 Mongolian Beef - Crispy and tender pieces of steak coated in thick, sweet and salty sauce served with onions and fresh scallions - $14.00
+
 Shrimp and Scallops in Garlic Sauce - Jumbo shrimp and fresh sea scallops with garden vegetables in our own garlic sauce. -$15.00
+
 Pineapple Duck - Crispy boneless duck with house pinapple sauce, surrounded by broccoli - $20.00
+
 Subgum Wonton - Shrimp, scallops, roast pork, and chicken stir fried with garden vegetables and 6 fried wontons - $13.00
+
 Seafood Pan Fried Noodle - Noodles pan fried crispy with shrimp, scallops, crab, lobster and fresh vegetables - $15.00
+
 Jade Scallops - Deliciously flavored fresh sea scallops sauteed with broccoli, snow peas, string beans and peppers in a brown sauce - $15.00
+
 Orange Beef - Cubes of steak fried until crispy on the outside and tender on the inside served in a sticky, spicy orange sauce with steamed broccoli - $16.00
+
 Shrimp with Honey and Walnut - Crispy jumbo shrimp in a honey sauce with walnuts surrounded by broccoli - $13.50
 
 
@@ -41,7 +51,7 @@ Pork Fried Rice $3.50
 Pancakes $1.50
 
 Drinks
-Pot of Oolong $2.75
+Pot of Oolong $2.75<secti
 Pot of Green Tea $3.00
 20oz Can of Soda $2.00
 

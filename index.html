@@ -17,16 +17,17 @@
           <li><a href="chef.html">Our Chef</a></li>
         </ul>
       </nav>
-      <img id='banner' src="images/yanbanner.png">
+      <div id="bannerContainer">
+        <img id='banner' src="images/yanbanner.png">
+        <div id="menuSuggestionDiv">
+          <div id="menuSuggestion">
+          </div>
+          <script>writeRandomImage();</script>
+        </div>
+      </div>
     </header>
     <!--each card will fill in the width gallery style-->
-    <div id="menuSuggestionDiv">
-      <p id="menuSuggestion">
-        <script>writeRandomSuggestion();</script>
-      </p>
-      <script>writeRandomImage();</script>
-    </div>
-    <div id="menuItems">
+    <div class="menuWrapper">
       <div class="cardContainer">
         <article class="card">
           <img src="images/eggrolls.jpg" alt="Appetizers" />
@@ -106,9 +107,91 @@
         </article>
       </div>
     </div>
+    <h2 id="specialsHeader">Chef Specials</h2>
+    <div class='menuWrapper' id="chefSpecials">
+      <div class="cardContainer">
+        <article class="card">
+          <h2>1000 Chili Pepper Spicy Fish Fillet</h2>
+          <p>white fish stir fried with a variety of chili peppers delivers an 
+            ongoing flavor and heat sensation. Served with white rice and steamed vegetable assortment</p>
+            <p>$22.00</p>
+        </article>
+      </div>
+      <div class="cardContainer">
+        <article class="card">
+          <h2>Shredded Pork Shoulder</h2>
+          <p> Delicately flavored and richly glazed slow cooked pork served over white rice</p>
+            <p>$19.00</p>
+        </article>
+      </div>
+      <div class="cardContainer">
+        <article class="card">
+          <h2>General Tso's Chicken</h2>
+          <p>crispy chicken chunks coated in a spicy sauce, served with </p>
+            <p>$12.00</p>
+        </article>
+      </div>
+      <div class="cardContainer">
+        <article class="card">
+          <h2>Mongoloian Beef</h2>
+          <p>Crispy and tender pieces of steak coated in thick, sweet and salty sauce served with onions and fresh scallions </p>
+            <p>$14.00</p>
+        </article>
+      </div>
+      <div class="cardContainer">
+        <article class="card">
+          <h2>Shrimp and Scallops in Garlic Sauce</h2>
+          <p>Jumbo shrimp and fresh sea scallops with garden vegetables in our own garlic sauce</p>
+            <p>$15.00</p>
+        </article>
+      </div>
+      <div class="cardContainer">
+        <article class="card">
+          <h2>Pineapple Duck</h2>
+          <p>Crispy boneless duck with house pinapple sauce, surrounded by broccoli</p>
+            <p>$20.00</p>
+        </article>
+      </div>
+      <div class="cardContainer">
+        <article class="card">
+          <h2>Subgum Wonton</h2>
+          <p>Shrimp, scallops, roast pork, and chicken stir fried with garden vegetables and 6 fried wontons</p>
+            <p>$13.00</p>
+        </article>
+      </div>
+      <div class="cardContainer">
+        <article class="card">
+          <h2>Seafood Pan Fried Noodle</h2>
+          <p>Noodles pan fried crispy with shrimp, scallops, crab, lobster and fresh vegetables</p>
+            <p>$15.00</p>
+        </article>
+      </div>
+      <div class="cardContainer">
+        <article class="card">
+          <h2>Orange Beef</h2>
+          <p>Cubes of steak fried until crispy on the outside and tender on the inside served in a sticky, spicy orange sauce with steamed broccoli</p>
+            <p>$16.00</p>
+        </article>
+      </div>
+      <div class="cardContainer">
+        <article class="card">
+          <h2>Jade Scallops</h2>
+          <p>Deliciously flavored fresh sea scallops sauteed with broccoli, snow peas, string beans and peppers in a brown sauce</p>
+            <p>$15.00</p>
+        </article>
+      </div>
+      <div class="cardContainer">
+        <article class="card">
+          <h2>Shrimp with Honey and Walnut</h2>
+          <p> Crispy jumbo shrimp in a honey sauce with walnuts surrounded by broccoli</p>
+            <p>$13.50</p>
+        </article>
+      </div>
+    </div>
     <footer>
       <!--footer stays at the bottom of the page-->
       <p>&copy; Copyright 2022 JK - This is an academic project and NOT a real company. </p>
     </footer>
   </body>
+  <script>writeRandomSuggestion();</script>
 </html>

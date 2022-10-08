@@ -11,6 +11,7 @@ body {
 header {
   width: 100vw;
   padding-bottom: 0;
+  border-bottom: solid black 3px;
 }
 
 footer {
@@ -46,9 +47,9 @@ nav ul li {
 }
 
 nav ul li a {
+  display: block;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  display: block;
   color: #e8b11a;
   font-size: 2.5rem;
   text-align: center;
@@ -65,15 +66,25 @@ nav ul li a.active {
   color: #D9D9D9;
   background-color: #4CAF50;
 }
+
+.menuWrapper {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  width: 85vw;
+  grid-gap: 50px;
+  margin: 10vh 0 10vh 0;
+}
 /*set the card styles*/
 .card {
   margin: 5px;
-  border: 1px solid #ccc;
   float: left;
   width: 250px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
 }
 
@@ -82,13 +93,11 @@ nav ul li a.active {
   align-items: flex-start;
   width: 100%;
   height: 100%;
-}
-
-.card:hover {
-  border: 1px solid #777;
+  margin: 0 0 0 50px;
 }
 
 .card img {
+  border: solid black 1px;
   width: 100%;
   height: auto;
 }
@@ -99,8 +108,10 @@ nav ul li a.active {
 
 .card p {
   margin: 0;
+  font-size: 1.05rem;
   margin-bottom: 10px;
 }
+
 /*put a border around the footer*/
 footer {
   clear: both;
@@ -108,26 +119,73 @@ footer {
 }
 
 #banner {
-  border-top: solid black 1px;
-  border-bottom: solid black 1px;
-  width: 100vw;
+  border-right: solid black 2px;
+  width: 100%;
 }
 
-#menuSuggestionDiv > img {
-  width: 25vw;
+#bannerContainer {
+  border-top: solid black 3px;
+  border-bottom: solid black 5px;
+  display: flex;
+  flex-direction: row;
+  width: 100;
+  height: 100%;
+}
+
+#menuSuggestionDiv {
+  background-color: #CF3030;
+  padding: 0 50px 0 50px;
+  width: 250px;
   height: auto;
 }
 
-#menuItems {
-  align-items: center;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  width: 50vw;
-  grid-gap: 50px;
+#menuSuggestionDiv > img {
+  width: 100%;
+  border: solid black 1px;
+}
+
+#menuSuggestionDiv > h2 {
+  width: 100%;
+}
+
+#menuSuggestion {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: #e8b11a;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 #menuItems > article {
   padding: 0;
+}
+
+#specialsHeader {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: #e8b11a;
+  background-color: #CF3030;
+  padding: 50px 0 50px 0;
+  font-size: 3.5rem;
+  border-top: solid black 5px;
+  border-bottom: solid black 3px;
+  text-align: center;
+  width: 100vw;
+}
+
+#cateringSection {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+#cateringSection > p:first-of-type {
+  margin-top: 75px;
+}
+
+#cateringSection > p {
+  margin: 0 0 50px 0;
 }

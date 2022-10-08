@@ -29,8 +29,13 @@ rand = getRandomNumber();
 
 // This will write a random menu item to the page
 function writeRandomSuggestion() {
-    document.write("We suggest: ");
-    document.write(suggestions[rand]);
+    createHeader2 = document.createElement("h2");
+    createHeader2.textContent = "We Suggest:";
+    createSuggestion = document.createElement("h2");
+    createSuggestion.textContent = suggestions[rand];
+    createSuggestion.id = "suggestionItem";
+    document.querySelector("#menuSuggestion").appendChild(createHeader2);
+    document.querySelector("#menuSuggestion").appendChild(createSuggestion);
 }
 
 function photoSuggestions() {
